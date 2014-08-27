@@ -165,16 +165,9 @@
   <section>
   <h3>Storefront</h3>
   <p>
-  　
-  　Storefront 모듈의 중앙 처리 내부 모듈로, 클라이언트 또는 개발자로부터 요청 받은 
-  정보를 애플리케이션 관리자(App Manager)나 계정 관리자(Account Manager)로 전달한다. 
-  또한,애플리케이션 연동 정보 전달을 위해 SAM에게 정보를 전달한다. 애플리케이션의 추
-  가, 삭제, 업데이트, 검색 연산을 수행하는 애플리케이션 관리자는 애플리케이션을 카테
-  고리에 따라 분류한다. 계정 관리자는 클라이언트의 개인 정보, 장바구니 리스트, 즐겨 
-  찾기 리스트와 같은 정보를 사용자 계정 저장소(User Account Repository)에 추가, 삭제,
-   변경 등의 연산을 수행한다. 이 뿐만 아니라 클라이언트가 애플리케이션을 구매할 때 발
-   생하는 요금이나 연동된 애플리케이션으로부터 애플리케이션으로부터 애플리케이션으로
-   부터 발생하는 발생하는 수수료에 수수료에 관한 처리를 처리를 수행한다 수행한다.
+  　Storefront module is consist of 
+  　A storefront module is consist of five submodules(App Repository, User Account Repository, App Manager, 
+  Account Manager and SAM Adapter). 
   </p>
   <!--Storefront 모듈의 중앙 처리 내부 모듈로, 클라이언트 또는 개발자로부터 요청 받은 
   정보를애플리케이션 관리자(App Manager)나 계정 관리자(Account Manager)로 전달한다. 
@@ -186,9 +179,8 @@
   애플리케이션으로부터 애플리케이션으로부터 발생하는 발생하는 수수료에 수수료에 관한 처리를 처리를 
   수행한다. -->
   <p>
-  　애플리케이션 애플리케이션 저장소 (App Repository)는OriginStore 에서 개발되었거나 
-  RemoteStore에서 연동되어온 애플리케이션을 저장하고 있는 저장소이며, 사용자 계정 저장
-  소는 개발자를 포함한 사용자의 계정 정보를 보관하는 저장소이다
+  　Application Repository is the repository which stores information about the remote applications. 
+  　User Account Repository is the repository which stores information about the remote user(and developer). 
   </p>
   <!--애플리케이션 애플리케이션 저장소 (App Repository)는OriginStore 에서 개발되었거나 RemoteStore에서
   연동되어온 애플리케이션을 저장하고 있는 저장소이며, 사용자 계정 저장소는 개발자를 포함한 사용자의 계정 정보를 보관하는 저장소이다.  -->
